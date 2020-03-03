@@ -5,7 +5,7 @@ function AddSongForm(props) {
     const handleSubmit = (e) => {
         e.preventDefault();
         props.addSong(title);
-        //this doesn't clean up, why?
+        //this doesn't clean up, why? *see next comment, now it works
         setTitle('');
     }
     return(

@@ -1,7 +1,13 @@
+* {
+    font-size: 32px;
+}
 .button {
-    border: 1px solid green;
     display: block;
     margin: 30px auto 30px auto;
+    color: white;
+    background-color: deeppink;
+    width: 200px;
+    border-radius: 10px;
 }
 .form {
     display:block;
@@ -11,14 +17,14 @@
     text-align: center;
 }
 .input {
-    border-bottom: 2px solid greenyellow;
+    border:transparent;
+    border-bottom: 3px solid greenyellow;
 }
 .li {
     list-style-type: none;
     padding: 5px;
-    background-color: #c6bfbf;
-    border-radius: 5px;
-    border: 1px solid purple;
+    color: white;
+    background-color: purple;
     margin-bottom: 10px;
     width: 50%;
 }
