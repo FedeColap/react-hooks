@@ -13,6 +13,9 @@ body {
   margin: 30px auto;
   text-align: center;
 }
+button {
+  border: 1px solid deeppink;
+}
 nav{
   padding: 5px;
 }

@@ -5,7 +5,7 @@ class Bookslist extends Component {
 
     static contextType = ThemeContext;
     render() { 
-        //this works too, but declaring is better
+        //this works too, but destructuring is better
         // const theme = this.context.isLightTheme ? this.context.light : this.context.dark;
         const {isLightTheme, light, dark} = this.context;
         const theme = isLightTheme ? light : dark;
