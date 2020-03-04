@@ -1,12 +1,17 @@
 import React from 'react';
-import SongList from './SongList'
 import './App.css'
+import Navbar from './components/Navbar'
+import Bookslist from './components/Bookslist'
+import ThemeContextProvider from './context/ThemeContext'
 
 // modification for branch
 function App() {
   return (
     <div className="App">
-      <SongList />
+      <ThemeContextProvider>
+        <Navbar />
+        <Bookslist />
+      </ThemeContextProvider>
     </div>
   );
 }
